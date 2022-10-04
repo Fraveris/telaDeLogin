@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #191816;
+	font-weight: 700;
+}
+
+input[type="checkbox"] {
+	border: none;
+	background: none;
+	position: relative;
+	right: 5px;
+}
+
+button {
+	width: 75%;
+	height: 50px;
+	background-color: #ffc632;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 15px auto 0;
+	display: block;
+	border: none;
+}
+
+p:last-child {
+	text-align: center;
+	color: #ffc632;
+}
+
+.email, .senha {
+	font-weight: 700;
+	font-size: 14px;
+	width: 75%;
+	padding: 10px 22px;
+	margin: 0 auto;
+	display: block;
+	color: #afb6c2;
+	border: 1px solid #afb6c2;
+}
+
+.email {
+	background: url("images/mail.svg") no-repeat left center; 
+}
+
+.senha {
+	background: url("images/lock.svg") no-repeat left center, url("images/eye.svg") no-repeat right center;
+}
+
+input[type="checkbox"] {
+	margin-left: 70px;
+}
+
+.carroImagem {
+	float: right;
+}
+
+.icone {
+	margin: 15px;
+}
+
+.container {
+	width: 500px;
+	height: 500px;
+	border-radius: 4px;
+	background-color: #24221f;
+	margin: 50px 70px;
+}
+
+.titulo {
+	padding-top: 30px;
+	font-size: 30px;
+	color: #d4ccb6;
+	text-indent: 13%;
+}
+
+.subtitulo {
+	color: #afb6c2;
+	text-indent: 13%;
+	padding-top: 5px;
+}
+
+.legenda {
+	margin: 8px 0 0 62px;
+	color: #afb6c2;
+}
+
+.esqueci {
+	margin-left: 100px;
+	color: #ffc632;
+}
